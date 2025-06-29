@@ -7,6 +7,16 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    plugins: [react()],
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    },
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true
+      }
+    }
   }
 })
