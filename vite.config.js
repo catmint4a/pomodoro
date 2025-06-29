@@ -25,6 +25,6 @@ export default defineConfig({
   },
   base: '/',
   server: {
-    base: '/'
+    base: '/pomodoro/'
   }
 })
