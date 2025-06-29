@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'docs',
-    assetsDir: 'assets',
+    assetsDir: 'pomodoro/assets',
     rollupOptions: {
       input: {
         main: './index.html'
@@ -23,8 +23,8 @@ export default defineConfig({
     assetsInlineLimit: 0,
     assetsInlinePattern: '\\.(png|jpe?g|gif|svg)$'
   },
-  base: './pomodoro/',
+  base: '/',
   server: {
-    base: '/pomodoro/'
+    base: '/'
   }
 })
