@@ -1,11 +1,11 @@
 {
   "index.html": {
-    "file": "pomodoro/assets/main-BijHy0pD.js",
+    "file": "assets/main-Dcu4Q6Ep.js",
     "name": "main",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "pomodoro/assets/main-_qfho1XI.css"
+      "assets/main-_qfho1XI.css"
     ]
   }
 }
