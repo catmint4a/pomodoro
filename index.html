@@ -6,7 +6,20 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro Timer</title>
-    <script type="module" src="./main.js"></script>
+    <script type="module">
+      import React from 'react'
+      import { createRoot } from 'react-dom/client'
+      import App from './src/App.jsx'
+
+      const container = document.getElementById('root')
+      const root = createRoot(container)
+      
+      root.render(
+        <React.StrictMode>
+          <App />
+        </React.StrictMode>
+      )
+    </script>
   </head>
   <body>
     <div id="root"></div>
