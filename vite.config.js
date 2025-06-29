@@ -8,6 +8,7 @@ export default defineConfig({
       '@': '/src'
     }
   },
+  base: '/pomodoro/',
   build: {
     rollupOptions: {
       input: {
