@@ -10,12 +10,6 @@ export default defineConfig({
   },
   base: '/pomodoro/',
   build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: './index.html'
-      },
-      external: ['main.js']
-    }
+    outDir: 'dist'
   }
 })
