@@ -23,5 +23,5 @@ export default defineConfig({
     assetsInlineLimit: 0,
     assetsInlinePattern: '\\.(png|jpe?g|gif|svg)$'
   },
-  base: '/pomodoro',
+  base: 'pomodoro',
 })
