@@ -12,7 +12,7 @@ export default defineConfig({
         main: './index.html'
       },
       output: {
-        entryFileNames: '[name]-[hash].js',
+        entryFileNames: 'index-[hash].js',
         chunkFileNames: '[name]-[hash].js',
         assetFileNames: '[name]-[hash].[ext]'
       }
