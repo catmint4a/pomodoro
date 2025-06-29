@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'docs',
-    assetsDir: 'pomodoro/assets',
+    assetsDir: 'assets',
     rollupOptions: {
       input: {
         main: './index.html'
