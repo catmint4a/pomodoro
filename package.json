@@ -4,12 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --force",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "vite build --base=/pomodoro/",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "deploy:gh": "npm run build && gh-pages -d dist -r https://github.com/catmint4a/pomodoro.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
