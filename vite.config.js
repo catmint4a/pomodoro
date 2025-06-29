@@ -10,8 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html'
-      },
-      external: ['assets/index.js']
+      }
     },
     minify: 'terser',
     terserOptions: {
