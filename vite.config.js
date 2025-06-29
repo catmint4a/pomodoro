@@ -23,8 +23,8 @@ export default defineConfig({
     assetsInlineLimit: 0,
     assetsInlinePattern: '\\.(png|jpe?g|gif|svg)$'
   },
-  base: '/',
+  base: '/pomodoro',
   server: {
-    base: '/'
+    base: '/pomodoro'
   }
 })
