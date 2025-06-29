@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:gh": "npm run build && gh-pages -d dist -r https://github.com/catmint4a/pomodoro.git"
   },
   "dependencies": {
     "react": "^18.2.0",
